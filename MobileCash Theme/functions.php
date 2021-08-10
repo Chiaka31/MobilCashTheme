@@ -15,7 +15,7 @@ function wpdocs_theme_name_scripts(){
     
     wp_enqueue_script( 'bootstrap', "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js", array(), '5.02', false );
 }
-add_action( 'wp_enqueue_scripts'. 'wpdocs_theme_name_scripts' );
+add_action( 'wp_enqueue_scripts', 'wpdocs_theme_name_scripts' );
 
 /**
  * Register Custom Navigation Walker
